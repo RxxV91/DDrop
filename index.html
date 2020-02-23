@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>QA Tool</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+    <div id="drop_file_zone" ondrop="upload_file(event)" ondragover="return false">
+        <div id="drag_upload_file">
+          <p>Drop file here</p>
+          <p>or</p>
+          <p><input type="button" value="Select File" onclick="file_explorer();"></p>
+          <input type="file" id="selectfile">
+        </div>
+      </div>
+      <br/>
+      <div>
+      <form>
+        <select multiple id="lst" name="list_htm">Select what themplate do you want to check:
+            
+
+        </select>
+      </form>
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</html>
